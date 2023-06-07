@@ -1,0 +1,8 @@
+{
+  "main": "dist/example-a-func.cjs.js",
+  "module": "dist/example-a-func.esm.js",
+  "umd:main": "dist/example-a-func.umd.min.js",
+  "preconstruct": {
+    "umdName": "Example.a.func"
+  }
+}

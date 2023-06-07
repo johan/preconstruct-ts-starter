@@ -1,0 +1,14 @@
+{
+  "name": "@example/b",
+  "version": "1.0.0",
+  "main": "dist/example-b.cjs.js",
+  "module": "dist/example-b.esm.js",
+  "umd:main": "dist/example-b.umd.min.js",
+  "license": "MIT",
+  "dependencies": {
+    "@example/a": "1.0.0"
+  },
+  "preconstruct": {
+    "umdName": "Example.b"
+  }
+}

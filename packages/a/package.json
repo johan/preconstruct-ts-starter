@@ -1,0 +1,15 @@
+{
+  "name": "@example/a",
+  "version": "1.0.0",
+  "main": "dist/example-a.cjs.js",
+  "module": "dist/example-a.esm.js",
+  "umd:main": "dist/example-a.umd.min.js",
+  "license": "MIT",
+  "preconstruct": {
+    "umdName": "Example.a",
+    "entrypoints": [
+      "index.ts",
+      "func.ts"
+    ]
+  }
+}
